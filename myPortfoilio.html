@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Al Ifran</title>
+    <link rel="stylesheet" href="myPortfolio.css" />
+    <script
+      src="https://kit.fontawesome.com/054c069e49.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav>
+          <img src="images/logo.png" class="logo" />
+          <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+          </ul>
+          <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+          <h1>Hi, I'm Al <span>Ifran</span></h1>
+          <p>Student Of Daffodil International University</p>
+        </div>
+      </div>
+    </div>
+    <div class="about" id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="images/img2.jpg" />
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <p>
+              <br />
+              Salam and <span class="typing-1"></span><br />
+              <br />
+              I'm IFRAN. I read in Daffodil International University on the
+              Department of Computer science and engineering.<br />
+              I have a good sense of humor. I enjoy meeting new people and
+              finding ways to help them have an uplifting experience. I am
+              dedicated, outgoing, and a team player. I speak less because I
+              know there are very few who likes to listen. I am passionate about
+              my work. I can recreate myself, that is my strength.
+            </p>
+            <div class="tab-tittles">
+              <p class="tab-links active-link" onclick="opentab('skills')">
+                Skills
+              </p>
+              <p class="tab-links" onclick="opentab('experience')">
+                Experience
+              </p>
+              <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li>
+                  <span><b>UI / UX</b></span
+                  ><br />Designing Web App Interfaces
+                </li>
+                <br />
+                <li>
+                  <span><b>Web Development</b></span
+                  ><br />Web App Development
+                </li>
+                <br />
+                <li>
+                  <span><b>App Development</b></span
+                  ><br />Building Android/IOS Apps
+                </li>
+                <br />
+              </ul>
+            </div>
+            <div class="tab-contents" id="experience">
+              <ul>
+                <li>
+                  <span><b>Problem Solving</b></span
+                  ><br />Online Judge, HackerRank, URI
+                </li>
+                <br />
+                <li>
+                  <span
+                    ><b
+                      >International Collegiate Programming Contest (ICPC)</b
+                    ></span
+                  ><br />Participated in 2021
+                </li>
+                <br />
+              </ul>
+            </div>
+            <div class="tab-contents" id="education">
+              <ul>
+                <li>
+                  <span
+                    ><b
+                      >Bachelor of Computer Science & Engineering (2019 -
+                      Present)</b
+                    ></span
+                  ><br />Daffodil International University<br />CGPA: 3.54
+                </li>
+                <br />
+                <li>
+                  <span><b>Higher Secondary School Certificate (2018)</b></span
+                  ><br />Uttara High School & College<br />GPA: 4.00<br />Board:
+                  Dhaka
+                </li>
+                <br />
+                <li>
+                  <span><b>Secondary School Certificate (2016)</b></span
+                  ><br />Uttara High School & College<br />GPA: 4.67<br />Board:
+                  Dhaka
+                </li>
+                <br />
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="services" id="services">
+      <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+          <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Web Design</h2>
+            <p>
+              Web design encompasses many different skills and disciplines in
+              the production and maintenance of websites.
+            </p>
+            <a href="#">Learn more</a>
+          </div>
+          <div>
+            <i class="fa-sharp fa-solid fa-crop-simple"></i>
+            <h2>UI /UX Design</h2>
+            <p>
+              UX design refers to the term “user experience design”, while UI
+              stands for “user interface design”. Both elements are crucial to a
+              product and work closely together.
+            </p>
+            <a href="#">Learn more</a>
+          </div>
+          <div>
+            <i class="fa-brands fa-app-store-ios"></i>
+            <h2>App Design</h2>
+            <p>
+              App creation is no longer just for professional developers. Now
+              everyone can build mobile apps without programming using a free
+              version of an award-winning low-code app development platform.
+            </p>
+            <a href="#">Learn more</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="portfolio">
+      <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+          <div class="work">
+            <img src="images/work-1.png" alt="" />
+            <div class="layer">
+              <h3>Card Protection Website</h3>
+              <p>
+                The app connects you to the talented people around the world.
+                Download it from play strore
+              </p>
+              <a href="#"><i class="fa-solid fa-square-arrow-up-right"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/work-2.webp" alt="" />
+            <div class="layer">
+              <h3>Koley Ik</h3>
+              <p>
+                The app connects you to the talented people around the world.
+                Download it from play strore
+              </p>
+              <a href="#"><i class="fa-solid fa-square-arrow-up-right"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/work-3.png" alt="" />
+            <div class="layer">
+              <h3>My Emergency App</h3>
+              <p>
+                The app connects you to the talented people around the world.
+                Download it from play strore
+              </p>
+              <a href="#"><i class="fa-solid fa-square-arrow-up-right"></i></a>
+            </div>
+          </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+      </div>
+    </div>
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-tittle">Contact Me</h1>
+            <p><i class="fa-solid fa-paper-plane"></i> contact@example.com</p>
+            <p><i class="fa-solid fa-phone"></i> +8801746931375</p>
+            <div class="social-icons">
+              <a href="https://web.facebook.com/alifran.rafi/"
+                ><i class="fa-brands fa-square-facebook"></i
+              ></a>
+              <a href=""><i class="fa-brands fa-square-twitter"></i></a>
+              <a href=""><i class="fa-brands fa-square-instagram"></i></a>
+              <a href="https://www.linkedin.com/in/al-ifran-rafi-36127024a/"
+                ><i class="fa-brands fa-linkedin"></i
+              ></a>
+            </div>
+            <a href="images/Resume of Al Ifran.pdf" download class="btn btn2"
+              >Download CV</a
+            >
+          </div>
+          <div class="contact-right">
+            <form>
+              <input type="text" name="Name" placeholder="Your name" required />
+              <input
+                type="email"
+                name="email"
+                placeholder="Your email"
+                required
+              />
+              <textarea
+                name="Message"
+                rows="6"
+                placeholder="Your message"
+              ></textarea>
+              <button type="submit" class="btn btn2">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer" id="footer">
+      <p>Created by Al Ifran | @copyright.com</p>
+    </div>
+    <script src="myPortfolio.js"></script>
+  </body>
+</html>
