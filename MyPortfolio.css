@@ -84,7 +84,7 @@ nav ul li a:hover::after {
 }
 .about-col-1 img {
   width: 100%;
-  border-radius: 15px;
+  border-radius: 6px;
 }
 .about-col-2 {
   flex-basis: 60%;
@@ -184,7 +184,7 @@ nav ul li a:hover::after {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   grid-gap: 40px;
-  margin-top: 50px;
+  margin-top: 30px;
 }
 .work {
   border-radius: 10px;
@@ -210,14 +210,14 @@ nav ul li a:hover::after {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  padding: 0 40px;
+  padding: 0 20px;
   text-align: center;
-  font-size: 14px;
+  font-size: 8px;
   transition: height 0.5s;
 }
 .layer h3 {
   font-weight: 500;
-  margin-bottom: 20px;
+  margin-bottom: 8px;
 }
 .layer a {
   margin: 20px;
@@ -309,9 +309,10 @@ form.btn2 {
 nav .fa-solid {
   display: none;
 }
+
 @media only screen and (max-width: 600px) {
   #header {
-    background-image: url(images/phone.png);
+    background-image: url(images/myPic.png);
   }
   .header-text {
     margin-top: 100%;
