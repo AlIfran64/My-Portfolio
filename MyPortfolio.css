@@ -57,6 +57,7 @@ nav ul li a:hover::after {
 }
 .header-text {
   margin-top: 12%;
+  margin-bottom: 2%;
   font-size: 23px;
 }
 .header-text h1 {
@@ -65,6 +66,9 @@ nav ul li a:hover::after {
 }
 .header-text h1 span {
   color: #26d7ce;
+}
+.justified-text {
+  text-align: justify;
 }
 #about {
   padding: 80px 0;
@@ -238,8 +242,8 @@ nav ul li a:hover::after {
   margin: 50px auto;
   width: fit-content;
   border: 1px solid #26d7ce;
-  padding: 14px 50px;
-  border-radius: 6px;
+  padding: 14px 15px;
+  border-radius: 5px;
   text-decoration: none;
   color: #fff;
   transition: background 0.5s;
@@ -279,6 +283,7 @@ nav ul li a:hover::after {
 .btn.btn2 {
   display: inline-block;
   background: #26d7ce;
+  margin-top: 15px;
 }
 .contact-right form {
   width: 100%;
