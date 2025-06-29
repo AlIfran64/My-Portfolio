@@ -18,7 +18,7 @@ const Banner = () => {
       <div className='absolute inset-0 bg-black opacity-80'></div>
 
       {/* Content */}
-      <div className='flex flex-col-reverse lg:flex-row justify-between items-center gap-2 md:gap-10 relative z-10 p-5'>
+      <div className='flex flex-col-reverse lg:flex-row justify-between items-center gap-2 md:gap-10 relative z-10 px-5 pt-5'>
 
         {/* Left */}
         <div className='w-full lg:w-1/2 text-white'>

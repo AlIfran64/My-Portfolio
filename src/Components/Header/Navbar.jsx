@@ -13,12 +13,12 @@ const Navbar = () => {
         to="aboutMe"
         smooth={true}
         duration={500}
-        offset={-80}
+        offset={-200}
         spy={true}
         activeClass="border-b-2 border-[#00C6FF] py-1 font-semibold"
         className="mx-2 cursor-pointer hover:text-[#00C6FF] text-white text-sm transition duration-300"
       >
-        About Me
+        About me
       </Link>
     </li>
 
