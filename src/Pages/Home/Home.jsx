@@ -25,12 +25,12 @@ const Home = () => {
         <Experience />
       </Element>
 
-      <Element name="education">
-        <Education />
-      </Element>
-
       <Element name="projects">
         <Projects />
+      </Element>
+
+      <Element name="education">
+        <Education />
       </Element>
 
       <Element name="contact">

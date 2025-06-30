@@ -1,26 +1,30 @@
 import React from 'react';
+import diu from '../../../src/assets/diu.png';
 
 const Education = () => {
   return (
-    <div id="education" className="min-h-screen bg-[#0f0f0f] px-4 py-20 flex items-center justify-center">
-      <div className="w-full max-w-4xl bg-[#1a1a1a]/70 backdrop-blur-md rounded-2xl shadow-2xl p-8 md:p-12 border border-[#2a2a2a]">
-        <h2 className="text-4xl font-bold text-white text-center mb-6">Education</h2>
+    <div className="max-w-6xl mx-auto my-10 md:my-32 p-8">
+      <h2 className='text-4xl text-center font-bold text-white mb-2'>Educational Qualification</h2>
+      <p className='text-center text-neutral-400 text-xl'> The core knowledge and skills that drive my growth as a software developer.</p>
 
-        <div className="space-y-4">
-          <h3 className="text-2xl font-semibold text-white">BSc in Computer Science and Engineering</h3>
-          <p className="text-neutral-400">Daffodil International University</p>
-          <p className="text-sm text-neutral-500 mb-4">September 2019 – June 2024</p>
+      <div className='mt-10 bg-[#0f0f0f] border border-[#2a2a2a] p-12 rounded-2xl space-y-2 flex flex-col md:flex-row justify-evenly items-center gap-10'>
 
-          <p className="text-neutral-300">
-            <span className="text-white font-medium">CGPA:</span> 3.51 out of 4.00
-          </p>
-
-          <p className="text-neutral-300">
-            <span className="text-white font-medium">Relevant Coursework:</span> Web Development, Software Engineering, Database Management.
+        <div>
+          <img className='w-44' src={diu} alt="logo" />
+        </div>
+        <div className='space-y-2'>
+          <h3 className="text-2xl font-semibold text-white text-center md:text-start">BSc in Computer Science and Engineering</h3>
+          <p className="text-neutral-400 font-semibold mt-1 text-center md:text-start">Daffodil International University</p>
+          <p className="text-neutral-500 italic mb-4 text-center md:text-start">September 2019 – June 2024</p>
+          <p className="text-gray-300 mb-1 text-center md:text-start"><span className="font-semibold text-white">CGPA:</span> 3.51 / 4.00</p>
+          <p className="text-gray-300 text-center md:text-start">
+            <span className="font-semibold text-white">Relevant Coursework:</span> Web Development, Software Engineering, Database Management
           </p>
         </div>
+
       </div>
     </div>
+
   );
 };
 

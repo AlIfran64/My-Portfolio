@@ -56,7 +56,7 @@ const Skills = () => {
 
             {/* css */}
             <div className='bg-[#171717] rounded-xl border-2 border-neutral-800'>
-              <img className='w-10 md:w-15 p-2 ' src={css} alt="logo" />
+              <img className='w-10 md:w-15 p-2' src={css} alt="logo" />
             </div>
 
             {/* html */}

@@ -42,7 +42,7 @@ const Navbar = () => {
         to="experience"
         smooth={true}
         duration={500}
-        offset={-180}
+        offset={-150}
         spy={true}
         activeClass="border-b-2 border-[#00C6FF] py-1 font-semibold"
         className="mx-2 cursor-pointer hover:text-[#00C6FF] text-white text-base transition duration-300"
@@ -53,29 +53,29 @@ const Navbar = () => {
 
     <li>
       <Link
-        to="education"
-        smooth={true}
-        duration={500}
-        offset={-180}
-        spy={true}
-        activeClass="border-b-2 border-[#00C6FF] py-1 font-semibold"
-        className="mx-2 cursor-pointer hover:text-[#00C6FF] text-white text-base transition duration-300"
-      >
-        Education
-      </Link>
-    </li>
-
-    <li>
-      <Link
         to="projects"
         smooth={true}
         duration={500}
-        offset={-180}
+        offset={-60}
         spy={true}
         activeClass="border-b-2 border-[#00C6FF] py-1 font-semibold"
         className="mx-2 cursor-pointer hover:text-[#00C6FF] text-white text-base transition duration-300"
       >
         Projects
+      </Link>
+    </li>
+
+    <li>
+      <Link
+        to="education"
+        smooth={true}
+        duration={500}
+        offset={-150}
+        spy={true}
+        activeClass="border-b-2 border-[#00C6FF] py-1 font-semibold"
+        className="mx-2 cursor-pointer hover:text-[#00C6FF] text-white text-base transition duration-300"
+      >
+        Education
       </Link>
     </li>
 

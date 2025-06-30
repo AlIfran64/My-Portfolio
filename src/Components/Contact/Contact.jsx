@@ -1,6 +1,9 @@
 import React, { useRef } from 'react';
 import emailjs from 'emailjs-com';
 import { toast } from 'react-toastify';
+import address from '../../../src/assets/address.png';
+import email from '../../../src/assets/email.png';
+import phone from '../../../src/assets/phone.png';
 
 const Contact = () => {
   const form = useRef();
@@ -26,8 +29,8 @@ const Contact = () => {
   };
 
   return (
-    <div className='bg-[#0f0f0f] px-4 py-20 mt-10 md:mt-32'>
-      <div className='max-w-6xl mx-auto flex flex-col md:flex-row justify-between'>
+    <div className='bg-[#0f0f0f] px-8 py-20 mt-10 md:mt-32'>
+      <div className='max-w-6xl mx-auto flex flex-col md:flex-row justify-between gap-5'>
         {/* left */}
         <div>
           <h2 className='text-4xl font-bold text-white mb-4'>Get in Touch</h2>
@@ -35,9 +38,37 @@ const Contact = () => {
             Have a question or want to work together? <br /> Send me a message!
           </p>
 
-          <p>Address: Dhaka, Bangladesh</p>
-          <p>Email: alifranrafi64@gmail.com</p>
-          <p>Mobile/What'sapp: +880 1746-931375</p>
+          <div className='space-y-5'>
+
+            {/* address */}
+            <div className='flex items-center gap-4 p-4 bg-[#161616] border border-[#2a2a2a] rounded-lg hover:bg-[#1f1f1f] transition'>
+              <img className='w-10 h-10' src={address} alt="Address Icon" />
+              <div>
+                <p className='text-sm text-neutral-400'>Address</p>
+                <p className='text-white font-medium'>Dhaka, Bangladesh</p>
+              </div>
+            </div>
+
+            {/* Email */}
+            <div className='flex items-center gap-4 p-4 bg-[#161616] border border-[#2a2a2a] rounded-lg hover:bg-[#1f1f1f] transition'>
+              <img className='w-8 h-8' src={email} alt="Email Icon" />
+              <div>
+                <p className='text-sm text-neutral-400'>Email</p>
+                <p className='text-white font-medium break-all'>alifranrafi64@gmail.com</p>
+              </div>
+            </div>
+
+            {/* Phone */}
+            <div className='flex items-center gap-4 p-4 bg-[#161616] border border-[#2a2a2a] rounded-lg hover:bg-[#1f1f1f] transition'>
+              <img className='w-10 h-10' src={phone} alt="Phone Icon" />
+              <div>
+                <p className='text-sm text-neutral-400'>Phone</p>
+                <p className='text-white font-medium'>+880 1746-931375</p>
+              </div>
+            </div>
+          </div>
+
+
         </div>
 
         {/* right */}

@@ -3,7 +3,7 @@ import atc from '../../../src/assets/atc.png';
 
 const Experience = () => {
   return (
-    <div className="max-w-6xl mx-auto my-10 md:my-32">
+    <div className="max-w-6xl mx-auto my-10 md:my-32 p-8 md:p-0">
       <h2 className='text-4xl text-center font-bold text-white mb-2'>Experience</h2>
       <p className='text-center text-neutral-400 text-xl'>Hands-on Industry Experience in Real-world Projects and Collaboration</p>
       <div className=" bg-[#0F0F0F] backdrop-blur-md rounded-2xl shadow-2xl p-8 md:p-12 border border-[#2a2a2a] mt-10">
