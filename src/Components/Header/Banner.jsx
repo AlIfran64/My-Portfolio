@@ -6,6 +6,8 @@ import { Typewriter } from 'react-simple-typewriter';
 import { Link } from 'react-router';
 import { GoDownload } from 'react-icons/go';
 import { RiContactsLine } from 'react-icons/ri';
+import { Link as ScrollLink } from 'react-scroll';
+
 
 const Banner = () => {
   return (
@@ -15,21 +17,21 @@ const Banner = () => {
         className='absolute inset-0 bg-no-repeat bg-center bg-cover filter grayscale opacity-50'
         style={{ backgroundImage: `url(${banner})` }}
       ></div>
-      <div className='absolute inset-0 bg-black opacity-80'></div>
+      <div className='absolute inset-0 bg-black opacity-85'></div>
 
       {/* Content */}
       <div className='flex flex-col-reverse lg:flex-row justify-between items-center gap-2 md:gap-10 relative z-10 px-5 pt-5'>
 
         {/* Left */}
         <div className='w-full lg:w-1/2 text-white'>
-          <h1 className='text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold leading-tight'>
+          <h1 className='text-3xl sm:text-4xl md:text-5xl font-bold leading-tight text-center md:text-start'>
             Hi! I'm{' '}
-            <span className='bg-gradient-to-r from-[#00C6FF] via-[#0072FF] to-[#0059B3] bg-clip-text text-transparent'>
+            <span className='bg-[#00C6FF] via-[#0072FF] to-[#0059B3] bg-clip-text text-transparent'>
               Al Ifran
             </span>
           </h1>
 
-          <p className='mt-3 text-xl sm:text-2xl font-medium'>
+          <p className='mt-3 text-xl sm:text-2xl font-medium text-center md:text-start'>
             <Typewriter
               words={['Mern Stack Web Developer', 'React Developer', 'Full Stack Engineer']}
               loop={0}
@@ -41,8 +43,8 @@ const Banner = () => {
             />
           </p>
 
-          <p className='my-5 text-sm sm:text-base text-justify leading-relaxed'>
-            Passionate about building fast, responsive, and scalable web applications using modern technologies like React, Node.js, Express, and MongoDB.
+          <p className='my-5 text-sm sm:text-base md:text-lg  leading-relaxed text-center md:text-justify'>
+            Passionate about building fast, responsive, and scalable web applications using modern technologies like React, Node.js, Express, and MongoDB, creating efficient and maintainable solutions.
           </p>
 
           {/* Social Icons */}
@@ -92,23 +94,31 @@ const Banner = () => {
           </div>
 
           {/* Buttons */}
-          <div className='flex flex-col sm:flex-row items-center gap-4 my-5'>
+          <div className='flex flex-col sm:flex-row items-center gap-4 mt-5 mb-10'>
             <a
               href="https://drive.google.com/uc?export=download&id=1rauTLzFz1229QVGBlpELeCJPXVfZkk3U"
               target="_blank"
               rel="noopener noreferrer"
-              className="p-[2px] rounded-full bg-gradient-to-r from-[#00C6FF] via-[#0072FF] to-[#0059B3] hover:from-[#0072FF] hover:via-[#00C6FF] hover:to-[#0099FF] transition-colors duration-300"
+              className="p-[4px] rounded-full bg-gradient-to-r from-[#00C6FF] via-[#0072FF] to-[#0059B3] hover:from-[#0072FF] hover:via-[#00C6FF] hover:to-[#0099FF] transition-colors duration-300"
             >
-              <span className="rounded-full bg-gradient-to-r from-[#00C6FF] via-[#0072FF] to-[#0059B3] text-white px-6 py-2 font-semibold shadow-md flex items-center gap-2">
+              <span className="rounded-full bg-gradient-to-r from-[#00C6FF] via-[#0072FF] to-[#0059B3] text-white px-6 py-2 font-semibold shadow-md flex items-center gap-2 text-base md:text-lg">
                 <GoDownload size={20} /> Download Resume
               </span>
             </a>
 
-            <button className='p-[2px] rounded-full bg-gradient-to-r from-[#00C6FF] via-[#0072FF] to-[#0059B3] hover:from-[#0072FF] hover:via-[#00C6FF] hover:to-[#0099FF] transition-colors duration-300'>
-              <span className='bg-black text-white rounded-full px-6 py-2 font-semibold flex items-center gap-2'>
+
+            <ScrollLink
+              to="contact"
+              smooth={true}
+              duration={500}
+              offset={-60}
+              className='p-[4px] rounded-full bg-gradient-to-r from-[#00C6FF] via-[#0072FF] to-[#0059B3] hover:from-[#0072FF] hover:via-[#00C6FF] hover:to-[#0099FF] transition-colors duration-300 cursor-pointer'
+            >
+              <span className='bg-black text-white rounded-full px-6 py-2 font-semibold flex items-center gap-2 text-base md:text-lg'>
                 <RiContactsLine size={18} /> Contact Now
               </span>
-            </button>
+            </ScrollLink>
+
           </div>
         </div>
 

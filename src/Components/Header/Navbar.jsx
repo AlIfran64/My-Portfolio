@@ -13,10 +13,10 @@ const Navbar = () => {
         to="aboutMe"
         smooth={true}
         duration={500}
-        offset={-200}
+        offset={-180}
         spy={true}
         activeClass="border-b-2 border-[#00C6FF] py-1 font-semibold"
-        className="mx-2 cursor-pointer hover:text-[#00C6FF] text-white text-sm transition duration-300"
+        className="mx-2 cursor-pointer hover:text-[#00C6FF] text-white text-base transition duration-300"
       >
         About me
       </Link>
@@ -28,10 +28,10 @@ const Navbar = () => {
         to="skills"
         smooth={true}
         duration={500}
-        offset={-80}
+        offset={-150}
         spy={true}
         activeClass="border-b-2 border-[#00C6FF] py-1 font-semibold"
-        className="mx-2 cursor-pointer hover:text-[#00C6FF] text-white text-sm transition duration-300"
+        className="mx-2 cursor-pointer hover:text-[#00C6FF] text-white text-base transition duration-300"
       >
         Skills
       </Link>
@@ -42,10 +42,10 @@ const Navbar = () => {
         to="experience"
         smooth={true}
         duration={500}
-        offset={-80}
+        offset={-180}
         spy={true}
         activeClass="border-b-2 border-[#00C6FF] py-1 font-semibold"
-        className="mx-2 cursor-pointer hover:text-[#00C6FF] text-white text-sm transition duration-300"
+        className="mx-2 cursor-pointer hover:text-[#00C6FF] text-white text-base transition duration-300"
       >
         Experience
       </Link>
@@ -56,10 +56,10 @@ const Navbar = () => {
         to="education"
         smooth={true}
         duration={500}
-        offset={-80}
+        offset={-180}
         spy={true}
         activeClass="border-b-2 border-[#00C6FF] py-1 font-semibold"
-        className="mx-2 cursor-pointer hover:text-[#00C6FF] text-white text-sm transition duration-300"
+        className="mx-2 cursor-pointer hover:text-[#00C6FF] text-white text-base transition duration-300"
       >
         Education
       </Link>
@@ -70,10 +70,10 @@ const Navbar = () => {
         to="projects"
         smooth={true}
         duration={500}
-        offset={-80}
+        offset={-180}
         spy={true}
         activeClass="border-b-2 border-[#00C6FF] py-1 font-semibold"
-        className="mx-2 cursor-pointer hover:text-[#00C6FF] text-white text-sm transition duration-300"
+        className="mx-2 cursor-pointer hover:text-[#00C6FF] text-white text-base transition duration-300"
       >
         Projects
       </Link>
@@ -84,10 +84,10 @@ const Navbar = () => {
         to="contact"
         smooth={true}
         duration={500}
-        offset={-80}
+        offset={-60}
         spy={true}
         activeClass="border-b-2 border-[#00C6FF] py-1 font-semibold"
-        className="mx-2 cursor-pointer hover:text-[#00C6FF] text-white text-sm transition duration-300"
+        className="mx-2 cursor-pointer hover:text-[#00C6FF] text-white text-base transition duration-300"
       >
         Contact
       </Link>
@@ -127,7 +127,7 @@ const Navbar = () => {
           href="https://drive.google.com/uc?export=download&id=1rauTLzFz1229QVGBlpELeCJPXVfZkk3U"
           target="_blank"
           rel="noopener noreferrer"
-          className="btn rounded-full bg-gradient-to-r from-[#00C6FF] via-[#0072FF] to-[#0059B3] text-white hover:from-[#0072FF] hover:via-[#00C6FF] hover:to-[#0099FF] transition-colors duration-300 flex items-center gap-2 px-5 py-2 font-semibold shadow-md"
+          className="btn rounded-full bg-gradient-to-r from-[#00C6FF] via-[#0072FF] to-[#0059B3] text-white hover:from-[#0072FF] hover:via-[#00C6FF] hover:to-[#0099FF] transition-colors duration-300 flex items-center gap-2 px-5 py-2 font-semibold shadow-md text-base"
         >
           <GoDownload size={20} /> Download Resume
         </a>
