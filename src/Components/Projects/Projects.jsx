@@ -52,13 +52,13 @@ const Projects = () => {
   const [selectedProject, setSelectedProject] = useState(null);
 
   return (
-    <div className="my-10 md:my-32 bg-[#0f0f0f] p-20">
+    <div data-aos="zoom-in" className="my-10 md:my-20 lg:my-32 bg-[#0f0f0f] p-8 lg:p-24">
       <h1 className="text-4xl text-center font-bold text-white mb-2">Projects</h1>
-      <p className="text-center text-neutral-400 text-xl mb-20">
+      <p className="text-center text-neutral-400 text-xl mb-10">
         Showcasing innovative solutions and impactful applications I've built from front to back.
       </p>
 
-      <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
+      <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-4">
         {projectsData.map((project) => (
           <div
             key={project.id}

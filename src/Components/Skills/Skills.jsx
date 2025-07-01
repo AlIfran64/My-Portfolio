@@ -26,7 +26,7 @@ import php from '../../../src/assets/icons8-php-logo-160.png';
 
 const Skills = () => {
   return (
-    <div className='max-w-6xl mx-10  md:mx-auto my-10 md:my-32'>
+    <div data-aos="zoom-in" className='max-w-6xl mx-8 md:mx-10 lg:mx-auto my-10 md:my-20 lg:my-32'>
       <h1 className='text-4xl text-center font-bold text-white mb-2'>Skills</h1>
       <p className='text-center text-neutral-400 text-xl'>A diverse set of skills that power my development workflow.</p>
 

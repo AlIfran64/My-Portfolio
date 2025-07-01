@@ -29,7 +29,7 @@ const Contact = () => {
   };
 
   return (
-    <div className='bg-[#0f0f0f] px-8 py-20 mt-10 md:mt-32'>
+    <div data-aos="zoom-in" className='bg-[#0f0f0f] px-8 py-20 mt-10 md:mt-20 lg:mt-32'>
       <div className='max-w-6xl mx-auto flex flex-col md:flex-row justify-between gap-5'>
         {/* left */}
         <div>

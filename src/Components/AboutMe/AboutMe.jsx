@@ -4,7 +4,7 @@ import logo from '../../../src/assets/logo.png';
 
 const AboutMe = () => {
   return (
-    <div className='max-w-6xl mx-10 md:mx-auto my-10 md:my-32 bg-[#0f0f0f] p-8 md:p-15 rounded-2xl border border-[#2a2a2a]'>
+    <div data-aos="fade-up" className='max-w-6xl mx-8 md:mx-10 lg:mx-auto my-10 md:my-20 lg::my-32 bg-[#0f0f0f] p-8 md:p-15 rounded-2xl border border-[#2a2a2a]'>
 
       <p className='text-justify text-white text-base md:text-lg leading-relaxed'>
         Welcome! I’m Al Ifran, a passionate MERN stack developer skilled in building clean, responsive, and user-friendly web applications. I specialize in crafting dynamic frontend experiences with React and Tailwind CSS, backed by robust APIs using Node.js, Express, and MongoDB.

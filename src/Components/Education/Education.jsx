@@ -3,7 +3,7 @@ import diu from '../../../src/assets/diu.png';
 
 const Education = () => {
   return (
-    <div className="max-w-6xl mx-auto my-10 md:my-32 p-8">
+    <div data-aos="fade-left" className="max-w-6xl mx-auto my-10 md:my-20 lg:my-32 p-8">
       <h2 className='text-4xl text-center font-bold text-white mb-2'>Educational Qualification</h2>
       <p className='text-center text-neutral-400 text-xl'> The core knowledge and skills that drive my growth as a software developer.</p>
 
